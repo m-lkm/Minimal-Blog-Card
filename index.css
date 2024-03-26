@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}   
+
+.card{
+    /* border: solid;
+    border-color: red; */
+    background-color: rgb(172, 219,210);
+    font-family: sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card>*{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card > img{
+    width: 336px;
+    height: 152px;
+    /* border: solid; */
+    /* border-color: orange; */
+    padding: 0;
+    margin: 16px;
+    background-color: rgb(246, 215,209);
+    border-radius: 16px;
+
+}
+
+.wrapper{
+    /* border: solid;
+    border-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+    
+    flex-basis: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.tag{
+    /* border: solid; */
+    border-radius: 100vh;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+    background-color:rgb(230, 215, 252);
+    color: rgb(174, 125, 255);
+    font-weight: bold;
+}
+
+.title{
+    /* border: solid;
+    border-color: purple; */
+    font-size: larger;
+    font-weight: bold;
+    flex-basis: 0;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.description{
+    /* border: solid;
+    border-color: pink; */
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.author{
+    /* border: solid;
+    border-color: green; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
